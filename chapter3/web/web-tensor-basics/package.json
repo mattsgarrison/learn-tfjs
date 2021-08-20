@@ -4,7 +4,7 @@
   "description": "Showing what an NPM version would look like",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html -p 4567 --hmr-port 5678",
     "build": "parcel build index.html"
   },
   "dependencies": {
